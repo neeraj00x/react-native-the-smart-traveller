@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "TheSmartTraveller",
+    "name": "The Smart Traveller",
     "slug": "TheSmartTraveller",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,17 +18,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.neeraj00x.TheSmartTraveller"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./app/assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.neeraj00x.TheSmartTraveller"
     },
     "web": {
       "favicon": "./app/assets/favicon.png"
     },
-    "description": ""
+    "description": "",
+    "githubUrl": "https://github.com/neeraj00x/react-native-the-smart-traveller"
   }
 }
